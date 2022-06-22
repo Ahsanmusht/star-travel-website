@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Travels Website Design By Ahsan Mushtaq@</title>
+    
+    <!--------------swiper slider cdn link-------->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!------------font awesome cdn-link------------>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+    <!--------------------css file link------------->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!----------------header section start---------------->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>S</span>tar<span>T</span>ravel</a>
+
+
+        <nav class="navbar">
+
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">package</a>
+            <a href="#service">service</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            
+        </nav>
+
+        <div class="icons">
+
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+
+        </div>
+
+        <form action="" class="search-bar-container">
+
+            <input type="search"  id="search-bar" placeholder="search here..">
+
+            <label for="search-bar" class="fas fa-search"></label>
+
+        </form>
+
+
+    </header>
+
+
+    <!----------------header section end------------------>
+
+    <!----------------login form container-start----------->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-time" id="form-close"></i>
+
+        <form action="">
+
+            <h3>login</h3>
+
+            <input type="emial" class="box" placeholder="enter your Email">  
+            <input type="password" class="box" placeholder="enter your password">  
+            <input type="submit" value="login now"  class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password ? <a href="#">click here</a></p>  
+            <p>don't have an account ? <a href="#">click to register</a></p>  
+
+        </form>
+
+    </div>
+
+    <!----------------login form container-end------------->
+
+    <!-------------home section start---------------------->
+
+    <section class="home" id="home">
+
+        <div class="content">
+
+            <h3>Journey is worthwhile</h3>
+            <p>Find out new region with us, journey awaits</p>
+            <a href="#" class="btn">Discover more</a>
+
+        </div>
+
+        <div class="controls">
+
+            <span class="vid-btn active" data-src="./vid-1.mp4"></span>
+            <span class="vid-btn" data-src="./vid-2.mp4"></span>
+            <span class="vid-btn" data-src="./vid-3.mp4"></span>
+            <span class="vid-btn" data-src="./vid-4.mp4"></span>
+            <span class="vid-btn" data-src="./vid-5.mp4"></span>
+
+        </div>
+
+        <div class="video-container">
+
+            <video src="./vid-1.mp4" id="video-slider" loop autoplay muted></video>
+
+        </div>
+
+    </section>
+
+    <!-------------home section ends----------------------->
+
+    <!----------------------book section start-------------->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./book-img.svg" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="Place name here..">
+                </div>
+
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="numbar" placeholder="number of guest">
+                </div>
+
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+
+                <input type="submit" class="btn" value="book now">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!----------------------book section ends--------------->
+
+    <!---------------------package section start------------>
+
+    <section class="packages" id="packages">
+
+
+        <h1 class="heading">
+
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <img src="./mazar e qaid.jpg" alt="">
+                <div class="content">
+
+                    <h3> <i class="fas fa-map-marker-alt"></i> Pakistan </h3>
+                    
+                    <p>Lorim ispum dolar sirt mat amet construcyter adpicing ilit varities nam!</p>
+                    
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+
+                    <div class="price"> $120.34 <span>$250.89</span></div>
+
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./p-2.jpg" alt="">
+                <div class="content">
+
+                    <h3> <i class="fas fa-map-marker-alt"></i> sydnay </h3>
+                    
+                    <p>Lorim ispum dolar sirt mat amet construcyter adpicing ilit varities nam!</p>
+                    
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+
+                    <div class="price"> $120.34 <span>$250.89</span></div>
+
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./p-3.jpg" alt="">
+                <div class="content">
+
+                    <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                    
+                    <p>Lorim ispum dolar sirt mat amet construcyter adpicing ilit varities nam!</p>
+                    
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+
+                    <div class="price"> $120.34 <span>$250.89</span></div>
+
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./p-4.jpg" alt="">
+                <div class="content">
+
+                    <h3> <i class="fas fa-map-marker-alt"></i> Paris </h3>
+                    
+                    <p>Lorim ispum dolar sirt mat amet construcyter adpicing ilit varities nam!</p>
+                    
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+
+                    <div class="price"> $120.34 <span>$250.89</span></div>
+
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./p-5.jpg" alt="">
+                <div class="content">
+
+                    <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                    
+                    <p>Lorim ispum dolar sirt mat amet construcyter adpicing ilit varities nam!</p>
+                    
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+
+                    <div class="price"> $120.34 <span>$250.89</span></div>
+
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./p-6.jpg" alt="">
+                <div class="content">
+
+                    <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+                    
+                    <p>Lorim ispum dolar sirt mat amet construcyter adpicing ilit varities nam!</p>
+                    
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+
+                    <div class="price"> $120.34 <span>$250.89</span></div>
+
+                    <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!---------------------package section ends------------->
+
+    <!-- service section starts -->
+
+    <section class="services" id="services">
+
+
+        <h1 class="heading">
+
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+
+        </h1>
+
+        <div class="box-container">
+
+
+            <div class="box">
+
+                <i class="fas fa-hotel"></i>
+                <h3>available hotels</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Ipsum available, but the majority have suffered alteration in some</p>
+
+            </div>
+
+            <div class="box">
+
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Ipsum available, but the majority have suffered alteration in some</p>
+
+            </div>
+
+            <div class="box">
+
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guidelines</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Ipsum available, but the majority have suffered alteration in some</p>
+
+            </div>
+
+            <div class="box">
+
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Ipsum available, but the majority have suffered alteration in some</p>
+
+            </div>
+
+            <div class="box">
+
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Ipsum available, but the majority have suffered alteration in some</p>
+
+            </div>
+
+            <div class="box">
+
+                <i class="fas fa-hiking"></i>
+                <h3>lots of adventure</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Ipsum available, but the majority have suffered alteration in some</p>
+
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+    
+    <!-- service section ends -->
+
+    <!---------------gallery section starts--------->
+
+    <section class="gallery" id="gallery">
+
+
+        <h1 class="heading">
+
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <img src="./g-9.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+
+                <img src="./g-8.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+
+                <img src="./g-7.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+
+                <img src="./g-6.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+
+                <img src="./g-5.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+
+                <img src="./g-4.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+
+                <img src="./g-3.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+
+                <img src="./g-2.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+
+                <img src="./g-1.jpg" alt="">
+
+                <div class="content">
+
+                    <h3>beautiful places</h3>
+                    
+                    <p>lorem  ispum dolar sit amet constructer adpicing elit ducimus tenetur.</p>
+
+                    <a href="#" class="btn">see more</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!---------------gallery section ends----------->
+
+    <!----------------review-section starts--------->
+
+    <section class="review" id="review">
+
+        
+        <h1 class="heading">
+
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+            <span>s</span>
+
+        </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <div class="box">
+
+                        <img src="./pic1.png" alt="">
+
+                        <h3>John march</h3>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum
+                         has been the industry's standard dummy text ever since the 1500s,
+                         took a galley of type and scrambled it to make a type specimen .
+                         only five centuries, but also the leap into electronic typeseially
+                         unchanged.</p>
+
+                         <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+                         </div>
+
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+
+                        <img src="./pic2.png" alt="">
+
+                        <h3>hanery marchin</h3>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum
+                         has been the industry's standard dummy text ever since the 1500s,
+                         took a galley of type and scrambled it to make a type specimen .
+                         only five centuries, but also the leap into electronic typeseially
+                         unchanged.</p>
+
+                         <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+                         </div>
+
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+
+                        <img src="./pic3.png" alt="">
+
+                        <h3>alex jordy</h3>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum
+                         has been the industry's standard dummy text ever since the 1500s,
+                         took a galley of type and scrambled it to make a type specimen .
+                         only five centuries, but also the leap into electronic typeseially
+                         unchanged.</p>
+
+                         <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+                         </div>
+
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+
+                        <img src="./pic4.png" alt="">
+
+                        <h3>jasdon roy</h3>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum
+                         has been the industry's standard dummy text ever since the 1500s,
+                         took a galley of type and scrambled it to make a type specimen .
+                         only five centuries, but also the leap into electronic typeseially
+                         unchanged.</p>
+
+                         <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+                         </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!----------------review-section ends----------->
+
+    <!-----------------contact section start-------->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+
+                <img src="./contact-img.svg" alt="">
+
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+
+                </div>
+
+                
+                <div class="inputBox">
+
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+
+                </div>
+
+                <textarea placeholder="message here.." name="" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-----------------contact section ends--------->
+
+    <!-----------------creater name section---------->
+
+    <section class="brand-container">
+
+        <div class="swiper brand-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="./1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./6.jpg" alt=""></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!-------------foooter--------------------->
+
+<h3 class="footer">copyright@2022 Design by <span>Ahsan Mushtaq.</span></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------swiper slider js file link--------->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> 
+
+    <!----------------------js file link------------>
+
+    <script src="script.js"></script>
+</body>
+</html>
